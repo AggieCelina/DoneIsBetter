@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aggiecelina.happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pink_wall" />
+
+    <TextView
+        android:id="@+id/doText"
+        style="@style/TextViewTheme"
+        android:paddingLeft="16dp"
+        android:paddingTop="24dp"
+        android:text="Do" />
+
+    <TextView
+        android:id="@+id/neText"
+        style="@style/TextViewTheme"
+        android:layout_below="@id/doText"
+        android:paddingLeft="16dp"
+        android:text="ne"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/isText"
+        style="@style/TextViewTheme"
+        android:layout_below="@id/doText"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/neText"
+        android:text="is" />
+
+    <TextView
+        android:id="@+id/betterText"
+        style="@style/TextViewTheme"
+        android:layout_centerInParent="true"
+        android:text="better" />
+
+    <TextView
+        android:id="@+id/fectText"
+        style="@style/TextViewTheme"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="24dp"
+        android:paddingRight="16dp"
+        android:text="fect" />
+
+    <TextView
+        android:id="@+id/perText"
+        style="@style/TextViewTheme"
+        android:layout_above="@id/fectText"
+        android:layout_alignParentRight="true"
+        android:paddingRight="16dp"
+        android:text="per"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/thanText"
+        style="@style/TextViewTheme"
+        android:layout_above="@id/fectText"
+        android:layout_toLeftOf="@id/perText"
+        android:text="than" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/isText"
+        android:layout_alignStart="@id/fectText"
+        android:rotation="45"
+        android:src="@drawable/android_icon_big_13" />
+
+
+</RelativeLayout>
