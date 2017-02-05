@@ -19,4 +19,26 @@
         <item name="android:textColor">@android:color/white</item>
     </style>
 
+    <style name="TextViewThemeBold" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ImageViewTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name = "android:layout_width">match_parent</item>
+        <item name = "android:layout_height">match_parent</item>
+        <item name = "android:scaleType">centerCrop</item>
+        <item name = "android:adjustViewBounds">true</item>
+    </style>
+
+
+
 </resources>

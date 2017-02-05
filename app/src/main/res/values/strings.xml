@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Happy Birthday</string>
+    <string name="Do">Do</string>
+    <string name="Ne">Ne</string>
+    <string name="Is">Is</string>
+    <string name="Better">Better</string>
+    <string name="Than">Than</string>
+    <string name="Per">Per</string>
+    <string name="Fect">Fect</string>
 </resources>

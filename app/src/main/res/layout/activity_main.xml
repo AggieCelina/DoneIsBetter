@@ -6,25 +6,23 @@
     tools:context="aggiecelina.happybirthday.MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/pink_wall" />
+
+        style="@style/ImageViewTheme"
+        android:src="@drawable/background" />
 
     <TextView
         android:id="@+id/doText"
         style="@style/TextViewTheme"
         android:paddingLeft="16dp"
         android:paddingTop="24dp"
-        android:text="Do" />
+        android:text="@string/Do" />
 
     <TextView
         android:id="@+id/neText"
-        style="@style/TextViewTheme"
+        style="@style/TextViewThemeBold"
         android:layout_below="@id/doText"
         android:paddingLeft="16dp"
-        android:text="ne"
-        android:textStyle="bold" />
+        android:text="@string/Ne" />
 
     <TextView
         android:id="@+id/isText"
@@ -32,13 +30,13 @@
         android:layout_below="@id/doText"
         android:layout_marginLeft="2dp"
         android:layout_toRightOf="@id/neText"
-        android:text="is" />
+        android:text="@string/Is" />
 
     <TextView
         android:id="@+id/betterText"
         style="@style/TextViewTheme"
         android:layout_centerInParent="true"
-        android:text="better" />
+        android:text="@string/Better" />
 
     <TextView
         android:id="@+id/fectText"
@@ -47,31 +45,22 @@
         android:layout_alignParentRight="true"
         android:paddingBottom="24dp"
         android:paddingRight="16dp"
-        android:text="fect" />
+        android:text="@string/Fect" />
 
     <TextView
         android:id="@+id/perText"
-        style="@style/TextViewTheme"
+        style="@style/TextViewThemeBold"
         android:layout_above="@id/fectText"
         android:layout_alignParentRight="true"
         android:paddingRight="16dp"
-        android:text="per"
-        android:textStyle="bold" />
+        android:text="@string/Per" />
 
     <TextView
         android:id="@+id/thanText"
         style="@style/TextViewTheme"
         android:layout_above="@id/fectText"
         android:layout_toLeftOf="@id/perText"
-        android:text="than" />
-
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentRight="true"
-        android:layout_margin="40dp"
-        android:rotation="45"
-        android:src="@drawable/android_icon_big_13" />
+        android:text="@string/Than" />
 
 
 </RelativeLayout>
